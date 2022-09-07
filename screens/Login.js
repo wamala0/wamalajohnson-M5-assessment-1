@@ -15,10 +15,10 @@ const Login = ({navigation}) => {
      <Text style={{marginBottom:10,fontSize:18,color: "#fff"}}>  Sign in to continue  </Text>
      <TextInput
      style = {styles.input}
-     placeholder=" Enter UserName"
-     value={first_name}
-     name = 'first_name'
-     onChangeText={(text) =>{setFirst_name(text)}}
+     placeholder=" Enter Your email"
+     value={email}
+     name = 'email'
+     onChangeText={(text) =>{setEmail(text)}}
      
      />
       <TextInput
